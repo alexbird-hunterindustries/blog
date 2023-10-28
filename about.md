@@ -3,15 +3,19 @@ layout: post
 title: About
 ---
 
-Undoubtably one of the great minds of our time, Christopher Hitchens challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme is designed in his memory.
+In the [Hunter Industries](https://www.hunterindustries.com/) software
+department, we're not satisfied with doing our best; we'd like to do better than
+that. We take time each week to learn and experiment so that our best keeps
+getting better.
 
-<figure>
-  <img alt="Christopher Hitchens" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Christopher_Hitchens_2008-04-24_001.jpg" />
-  <figcaption>
-    Photo by Fri Tanke and licensed under the <a href="https://creativecommons.org/licenses/by/3.0/deed.en">Creative Commons Attribution 3.0 Unported</a> license.
-  </figcaption>
-</figure>
+This blog has notes of some of the things we're learning and thinking about.
+It's not comprehensive, and it doesn't necessarily represent the views of the
+whole software department or of Hunter Industries.
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
+As we grow our thinking, we expect our ideas to change, mature, and evolve. This
+blog is a partial log of those evolving ideas. We're writing primarily for our
+own benefit -- to synthesize our learning and share ideas with one another --
+but publish some of our notes in case they help others.
 
->Christopher Eric Hitchens (13 April 1949 – 15 December 2011) was an Anglo-American author, columnist, essayist, orator, religious and literary critic, social critic, and journalist. Hitchens was the author, co-author, editor or co-editor of over 30 books, including five collections of essays on culture, politics and literature. A staple of public discourse, his confrontational style of debate made him both a lauded intellectual and a controversial public figure. He contributed to New Statesman, The Nation, The Weekly Standard, The Atlantic, London Review of Books, The Times Literary Supplement, Slate, Free Inquiry and Vanity Fair.
+
+Interested in working with us? See our [open positions](https://recruiting2.ultipro.com/HUN1007HUIND/JobBoard/9d4c9b3a-f0e0-45f2-8b3c-5fb03c6eb7f5/?q=Mob&o=relevance&w=&wc=&we=&wpst=&f5=GalK65savEK7Er4k_Nb7dw).

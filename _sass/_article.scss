@@ -24,6 +24,10 @@
   text-align: justify;
   text-indent: 1.5em;
   text-justify: inter-word;
+
+  &:not(:first-of-type) {
+    margin-top: 1em;
+  }
 }
 
 .post p:first-of-type,

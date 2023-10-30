@@ -18,6 +18,18 @@
   max-width: 48rem;
   padding: 2em 1em;
   text-align: center;
+
+  &.post-title--with-subtitle {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.post > h2.post-subtitle {
+  margin-top: 0;
+  font-size: 1.2em;
+  font-style: italic;
+  color: $muted-text-color;
 }
 
 .post p {

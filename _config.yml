@@ -1,10 +1,11 @@
-title: Another Iteration
+title: The Cannery
 email: alex.bird@hunterindustries.com
 description: >-
-  Notes from the Hunter Software Department
+  Preserving what we learn in the Hunter Software Department
 baseurl: "/blog"
 url: "https://alexbird-hunterindustries.github.io/"
 icon: /assets/images/icon-512.png
+icon_svg: /assets/images/icon.svg
 favicon: /assets/images/favicon.ico
 github_username:  alexbird-hunterindustries
 

@@ -3,9 +3,10 @@
 {% if menu %}
   <nav class="site-navigation" role="navigation">
     <ul>
-      <li>
+      <li class='site-navigation__brand'>
         <a href="{{ '/' | prepend: site.baseurl }}">
-          Home
+          <img src="{{ site.baseurl }}/{{ site.icon_svg }}" />
+          {{ site.title }}
         </a>
       </li>
     {% for item in site.data.menu %}

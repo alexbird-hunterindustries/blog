@@ -24,6 +24,17 @@
   &.active a {
     text-decoration: underline;
   }
+
+  &.site-navigation__brand {
+    img {
+      display: inline;
+      height: 2em;
+      line-height: 2em;
+      margin: 0;
+      margin-top: -0.5em;
+      margin-bottom: -0.5em;
+    }
+  }
 }
 
 .site-navigation a {

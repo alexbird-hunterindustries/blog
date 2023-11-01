@@ -1,10 +1,17 @@
 .site-navigation {
-  margin-top: 2rem;
   padding: 0 1rem;
   &:hover,
   &:focus-within {
     a {
       opacity: .7;
+    }
+  }
+  header &,
+  body > &:first-child {
+    background-color: $color-hunter-blue;
+    padding: 1em;
+    a {
+      color: $color-hunter-gray-1;
     }
   }
 }
@@ -23,17 +30,6 @@
   margin: 0;
   &.active a {
     text-decoration: underline;
-  }
-
-  &.site-navigation__brand {
-    img {
-      display: inline;
-      height: 2em;
-      line-height: 2em;
-      margin: 0;
-      margin-top: -0.5em;
-      margin-bottom: -0.5em;
-    }
   }
 }
 

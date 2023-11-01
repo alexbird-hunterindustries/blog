@@ -1,9 +1,37 @@
-$brand-color:         #00bbff;
-$highlight:           lighten($brand-color, 35%);
-$text-color:          #0b0404;
-$muted-text-color:    #004b66;
-$font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
+/* Hunter Brand Guide: https://hunterindustries365.sharepoint.com/sites/fin/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffin%2FShared%20Documents%2FHunterBrandBook%5FInteractive%2Epdf&parent=%2Fsites%2Ffin%2FShared%20Documents */
+$color-hunter-blue:   #006488;
+$color-hunter-gray-9: #3B3B3B;
+$color-hunter-gray-8: #50504F;
+$color-hunter-gray-7: #656564;
+$color-hunter-gray-6: #7A7978;
+$color-hunter-gray-5: #908E8C;
+$color-hunter-gray-4: #A5A3A0;
+$color-hunter-gray-3: #BAB8B5;
+$color-hunter-gray-2: #CFCCC9;
+$color-hunter-gray-1: #E4E1DD;
 
+/* From the brand guide: "All business unit colors may be used as accents within corporate materials." */
+
+/* Irrigation */
+$color-hunter-light-blue:    #56B9DA;
+$color-hunter-lighter-blue:  #000000; /* what is this color? */
+$color-hunter-dark-green:    #58A618;
+$color-hunter-light-green:   #669900;
+
+/* Other business units */
+$color-hunter-fx-brown:      #796F65;
+$color-hunter-fx-orange:     #F85709;
+$color-hunter-yellow-2:      #F8D35E;
+$color-hunter-yellow-1:      #CF8A24;
+
+/* Jekyll Theme Colors */
+$brand-color:         $color-hunter-light-blue;
+$highlight:           lighten($brand-color, 35%);
+$text-color:          $color-hunter-gray-9;
+$muted-text-color:    $color-hunter-gray-7;
+$font-family:         "Sero Pro", sans-serif;
+
+/* Breakpoints */
 $on-bigphone:         375px;
 $on-tablet:           768px;
 $on-laptop:           960px;

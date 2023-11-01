@@ -1,5 +1,5 @@
 body {
-  background: $brand-color;
+  background: $color-hunter-gray-1;
   color: $text-color;
   font-family: $font-family;
   font-size: 1.3125em;
@@ -148,23 +148,4 @@ figcaption {
   margin: 0 auto 2em;
   padding: 0 2em;
   text-align: center;
-}
-
-.skip-navigation {
-  background: $brand-color;
-  border: 1px dashed transparent;
-  display: block;
-  font-size: .875em;
-  font-weight: 700;
-  margin-top: -2.625rem;
-  padding: .5rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  &:hover,
-  &:focus {
-    background: lighten($brand-color, 2.5%);
-    border-color: $text-color;
-    margin-top: 0;
-  }
 }

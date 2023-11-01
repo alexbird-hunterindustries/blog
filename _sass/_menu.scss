@@ -8,6 +8,7 @@
   }
   header &,
   body > &:first-child {
+    font-weight: bold;
     background-color: $color-hunter-blue;
     padding: 1em;
     a {

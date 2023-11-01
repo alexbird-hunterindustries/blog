@@ -1,4 +1,4 @@
-# Alex Bird / Hunter Industries blog
+# The Cannery - a Hunter Industries Software Department Blog
 
 Published through GitHub pages at https://alexbird-hunterindustries.github.io/blog/
 
@@ -45,4 +45,5 @@ now, the process for contributing is as follows:
 ## Technical Notes
 
 This blog is built with Jekyll (which uses Ruby) because that's the default for
-GitHub pages.
+GitHub pages. It seemed like a good option because it works out of the box and
+integrates nicely with the deployment process and hosting for GitHub pages.

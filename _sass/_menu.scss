@@ -9,10 +9,11 @@
   header &,
   body > &:first-child {
     font-weight: bold;
+    text-transform: uppercase;
     background-color: $color-hunter-blue;
     padding: 1em;
     a {
-      color: $color-hunter-gray-1;
+      color: $color-hunter-white;
     }
   }
 }

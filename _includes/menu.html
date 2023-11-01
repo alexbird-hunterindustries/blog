@@ -1,9 +1,12 @@
 {% assign menu = site.data.menu %}
 
 {% if menu %}
-  <nav class="site-navigation" role="navigation">
+  <nav class="site-navigation {{ include.class }}" role="navigation">
     <ul>
-      <li class='site-navigation__brand'>
+      <li>
+        {% include logo.html %}
+      </li>
+      <li>
         <a href="{{ '/' | prepend: site.baseurl }}">
           {{ site.title }}
         </a>

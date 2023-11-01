@@ -6,6 +6,7 @@ baseurl: "/blog"
 url: "https://alexbird-hunterindustries.github.io/"
 icon: /assets/images/icon-512.png
 icon_svg: /assets/images/icon.svg
+icon_svg_reverse: /assets/images/icon-reverse.svg
 favicon: /assets/images/favicon.ico
 github_username:  alexbird-hunterindustries
 

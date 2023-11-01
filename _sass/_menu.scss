@@ -6,15 +6,34 @@
       opacity: .7;
     }
   }
-  header &,
-  body > &:first-child {
+
+  &.appbar {
     font-weight: bold;
     text-transform: uppercase;
     background-color: $color-hunter-blue;
     padding: 1em;
+    position: relative;
+    margin-left: 30px;
+    border-left: 4px solid $color-hunter-white;
     a {
       color: $color-hunter-white;
     }
+    &:before {
+      content: '';
+      position: absolute;
+      background-color: $color-hunter-light-blue;
+      left: 0;
+      width: 30px;
+      left: -34px;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+  }
+
+  .logo {
+    color: $color-hunter-white;
+    font-size: 2em;
   }
 }
 
@@ -22,7 +41,8 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .site-navigation li {

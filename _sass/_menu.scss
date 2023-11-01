@@ -43,6 +43,10 @@
       bottom: 0;
       z-index: 1;
     }
+
+    ul {
+      justify-content: flex-start;
+    }
   }
 }
 
@@ -50,7 +54,7 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 

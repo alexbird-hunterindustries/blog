@@ -4,11 +4,9 @@
   <nav class="site-navigation {{ include.class }}" role="navigation">
     <ul>
       <li>
-        {% include logo.html %}
-      </li>
-      <li>
-        <a href="{{ '/' | prepend: site.baseurl }}">
-          {{ site.title }}
+        <a class='site-navigation__brand' href="{{ '/' | prepend: site.baseurl }}">
+          {% include logo.html %}
+          <span>{{ site.title }}</span>
         </a>
       </li>
     {% for item in site.data.menu %}

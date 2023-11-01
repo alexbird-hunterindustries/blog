@@ -17,6 +17,20 @@
     border-left: 4px solid $color-hunter-white;
     a {
       color: $color-hunter-white;
+
+      &.site-navigation__brand {
+        display: flex;
+        align-items: center;
+        span {
+          margin-top: 1px;
+          padding-left: 8px;
+          line-height: 2em;
+        }
+        .logo {
+          color: $color-hunter-white;
+          font-size: 2em;
+        }
+      }
     }
     &:before {
       content: '';
@@ -29,11 +43,6 @@
       bottom: 0;
       z-index: 1;
     }
-  }
-
-  .logo {
-    color: $color-hunter-white;
-    font-size: 2em;
   }
 }
 
@@ -50,9 +59,6 @@
   font-size: .875em;
   font-variant: small-caps;
   margin: 0;
-  &.active a {
-    text-decoration: underline;
-  }
 }
 
 .site-navigation a {

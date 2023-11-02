@@ -2,13 +2,11 @@
 layout: default
 ---
 
-{% if site.data.menu and site.paginate and site.paginate_path and paginator.page > 1 %}
-  {% include menu.html %}
-{% elsif site.paginate and site.paginate_path and paginator.page > 1 %}
-  {% include back-link.html %}
+{% include menu.html class="appbar" %}
+
+{% if site.paginate and site.paginate_path and paginator.page > 1 %}
 {% else %}
   <header class="site-masthead">
-    {% include menu.html class="appbar" %}
     {% if site.title %}
       <h1>
         <img class='site-logo' src="{{ site.baseurl }}/{{ site.icon_svg }}" />
@@ -27,9 +25,9 @@ layout: default
 
   <h1 class="content-title divided">
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
-      Page {{ paginator.page }}
+      Blog Posts (Page {{ paginator.page }})
     {% else %}
-      Contents
+      Blog Posts
     {% endif %}
   </h1>
 

@@ -24,20 +24,23 @@
 
     {{ content }}
 
-    {% unless site.hide_search %}
-      {% include search.html %}
-    {% endunless %}
+    <footer>
+      {% unless site.hide_search %}
+        <div class='footer__search'>
+          {% include search.html %}
+        </div>
+      {% endunless %}
 
-    {% include menu.html %}
+      {% include menu.html class="footer__menu" %}
 
-      <aside class="site-credits">
-        <p>
-          <small>Copyright ©2023 Hunter Industries™. All Rights Reserved.</small>
-        </p>
+      <aside class="footer__credits">
         <p>
           <small>Site adapted from the <a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
         </p>
+        <p>
+          <small>Copyright ©2023 Hunter Industries™. All Rights Reserved.</small>
+        </p>
       </aside>
-
+    </footer>
   </body>
 </html>

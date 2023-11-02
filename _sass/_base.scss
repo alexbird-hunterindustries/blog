@@ -6,6 +6,10 @@ body {
   line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5 {
+  color: $color-hunter-blue;
+}
+
 h1 {
   font-size: 3em;
   margin: .5em auto;
@@ -87,13 +91,6 @@ p > cite {
   text-align: right;
 }
 
-hr {
-  border: 0;
-  height: 0;
-  @include divider;
-  margin: 4em 0;
-}
-
 img {
   display: flex;
   max-width: 100%;
@@ -111,11 +108,6 @@ figcaption {
   text-align: center;
   margin-bottom: 2em;
   opacity: .7;
-}
-
-.divided::after {
-  content: "";
-  @include divider;
 }
 
 .home {

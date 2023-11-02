@@ -2,10 +2,9 @@
   margin: 1em 0;
   list-style: none;
   &:hover,
-  &:focus-within {
-    .post-link {
-      opacity: .6;
-    }
+
+  h1, h2, h3 {
+    color: $color-hunter-gray-9;
   }
 }
 
@@ -29,7 +28,9 @@
   transition: opacity .125s ease-in-out;
   &:hover,
   &:focus {
-    opacity: 1 !important;
+    h1, h2, h3, .post-date {
+      color: $color-hunter-blue;
+    }
   }
   @media (min-width: $on-tablet) {
     grid-template-areas:

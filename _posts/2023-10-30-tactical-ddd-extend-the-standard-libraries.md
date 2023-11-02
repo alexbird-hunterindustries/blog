@@ -34,7 +34,7 @@ function in JavaScript. In a JavaScript application where we need to round down
 to the closest integer value less than a number, we would end up with something
 like this:
 
-```
+```javascript
 const floor = number => Math.round(number - 0.5);
 ```
 
@@ -65,14 +65,14 @@ waist sizes and the size names that we use in our company. We have the following
 code in our app:
 
 #### Validation
-```
+```javascript
 
 if (size < 28 || size > 42) {
   /* handle unsupported size error */
 }
 
 ```
-```
+```javascript
 
 if (!sizeName.match(/(S|M|L|2?XL)/)) {
   /* handle unsupported size error */
@@ -81,7 +81,7 @@ if (!sizeName.match(/(S|M|L|2?XL)/)) {
 ```
 
 #### Conversion
-```
+```javascript
 
 let sizeName;
 if (size > 27 && <= 30) {
@@ -102,7 +102,7 @@ if (size > 27 && <= 30) {
 Also we offer more color options for the most common sizes, so we also have the
 following throughout the code:
 
-```
+```javascript
 
 if (size > 30 && size <= 36) {
   /* handle most popular sizes */
@@ -132,7 +132,7 @@ mean using simple language constructs to encode our vocabulary and all the
 nuanced ideas it entails. Consider this small class. (I'm showing only the
 interface for brevity; it would be a fun exercise for us to implement this.)
 
-```
+```javascript
 
 interface PantSize {
     static fromWaistSize(size: number): PantSize;

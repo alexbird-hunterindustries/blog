@@ -6,8 +6,14 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
   color: $color-hunter-blue;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4, h5, h6 {
+  font-weight: bold;
 }
 
 h1 {
@@ -30,28 +36,28 @@ h2 {
 h3 {
   font-size: 1.5em;
   margin: 1.3333em auto;
-  text-align: center;
+  text-align: left;
 }
 
 h4 {
   font-size: 1.25em;
-  font-style: italic;
   margin: 1.875em auto;
-  text-align: center;
+  margin-bottom: 0;
+  text-align: left;
 }
 
 h5 {
   font-size: 1em;
-  font-style: italic;
   margin: 2em auto;
-  text-align: center;
+  margin-bottom: 0;
+  text-align: left;
 }
 
 h6 {
   font-size: .875em;
-  font-style: italic;
   margin: 2.25em auto;
-  text-align: center;
+  margin-bottom: 0;
+  text-align: left;
 }
 
 em {

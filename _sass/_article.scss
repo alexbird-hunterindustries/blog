@@ -33,11 +33,34 @@
 
 .post p {
   text-align: justify;
-  text-indent: 1.5em;
   text-justify: inter-word;
 
-  &:not(:first-of-type) {
-    margin-top: 1em;
+  margin-top: 1em;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.post {
+  h1 + p,
+  h2 + p,
+  h3 + p,
+  h4 + p,
+  h5 + p,
+  h6 + p,
+  h1 + .highlighter-rouge > .highlight,
+  h2 + .highlighter-rouge > .highlight,
+  h3 + .highlighter-rouge > .highlight,
+  h4 + .highlighter-rouge > .highlight,
+  h5 + .highlighter-rouge > .highlight,
+  h6 + .highlighter-rouge > .highlight,
+  h1 + .highlighter-rouge > .highlight > pre,
+  h2 + .highlighter-rouge > .highlight > pre,
+  h3 + .highlighter-rouge > .highlight > pre,
+  h4 + .highlighter-rouge > .highlight > pre,
+  h5 + .highlighter-rouge > .highlight > pre,
+  h6 + .highlighter-rouge > .highlight > pre {
+    margin-top: 0.25em;
   }
 }
 

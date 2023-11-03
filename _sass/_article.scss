@@ -113,3 +113,10 @@ pre {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+iframe {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}

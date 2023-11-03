@@ -2,10 +2,13 @@
   title: Journey to Joy
   subtitle: Tracking Happiness and The Satir Change Model
   author: Austin Chadwick and Chris Lucian
+  type: video
   layout: post
 ---
 
 Chris Lucian and Austin Chadwick discuss all things #agile and product development from a #MobProgramming perspective. Join us in this episode of the Mob Mentality Show as we embark on a journey to unravel the intricacies of happiness tracking and its correlation with the Satir Change Model. Delve into the world of team dynamics, psychology, and the power of tracking in both in-person and remote mob settings.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yBuwU-QwBSc?si=sAClCgHeLqSRzsYq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Episode Highlights:
 - 🌟 Uncover the origin story and the overview of happiness tracking within mobs.
@@ -23,4 +26,3 @@ Episode Highlights:
 
 Tune in to this episode that explores the intersection of happiness tracking and the Satir Change Model. Equip yourself with practical knowledge and actionable strategies to foster joy and well-being within your team or organization. Don't miss this opportunity to embark on a transformative journey toward a happier, more effective mob environment! 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yBuwU-QwBSc?si=sAClCgHeLqSRzsYq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

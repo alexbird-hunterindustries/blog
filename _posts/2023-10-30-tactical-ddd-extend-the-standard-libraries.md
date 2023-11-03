@@ -56,7 +56,7 @@ our code is enhanced by not doing that.
 What happens when the common idea we use in our business *is not* included in a
 standard library?
 
-### An expressive proramming language for our business rules
+### An expressive programming language for our business rules
 
 When it comes to our business, we have all kinds of specific, nuanced words that
 aren't defined in standard libraries. Let's use an example: suppose our business
@@ -126,7 +126,7 @@ Here are some symptoms of this pattern:
 
 #### A healthy language
 
-There is no need to limit the code we author to standard vocabularly; we can
+There is no need to limit the code we author to standard vocabulary; we can
 write our own language. I don't mean compilers and other low level hackery -- I
 mean using simple language constructs to encode our vocabulary and all the
 nuanced ideas it entails. Consider this small class. (I'm showing only the
@@ -178,7 +178,7 @@ can benefit from the insight while coding.
 1. **Listen** for words and ideas that you naturally use when talking about your
    software -- words related to your business domain and your customers' goals
 2. **Encode** those words and ideas in your programming language
-3. **Express** your system behaviour using those special terms you've captured.
+3. **Express** your system behavior using those special terms you've captured.
 
 ### Further reading
 
@@ -190,7 +190,7 @@ discussed in this post.
 
 This post describes an aspect of **Domain Driven Design** (DDD). In DDD terms, the
 work of developing a shared mental model expressed in a common language specific
-to our business is called "domain modelling" and produces a "ubiquitous
+to our business is called "domain modeling" and produces a "ubiquitous
 language" which should be codified in our programming language and kept up to
 date as our understanding evolves. There are patterns in DDD for understanding
 this language that you might find helpful for structuring the business-code
@@ -212,7 +212,7 @@ dependencies. It means the business rules are easy to test in isolation.
 Resources about hexagonal architecture:
  - [Ready for changes with Hexagonal Architecture](https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749) (from the Netflix Technology Blog)
  - Vaugh Vernon's *Implementing Domain-Driven Design*
-For more on hex architecture, refer the the Vaugh Vernon book *Implementing
+For more on hex architecture, refer to the Vaugh Vernon book *Implementing
 Domain-Driven Design*, this 
  - you'll also find lots through a web search for "hexagonal architecture" or
    "ports and adapters architecture"

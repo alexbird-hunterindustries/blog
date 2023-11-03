@@ -5,15 +5,14 @@
   layout: post
 ---
 
-I understand that many technical problems are also social problems, and a good
-solution is sociotechnical. Social change is part of the work of a technical
-leader.
+Since many technical problems are also social problems, social change is
+sometimes part of the work of a technical leader.
 
 In *Switch*, Chip Heath and Dan Heath explain how to bring about change. Before
-reading the book, I concieved of leading change primarily as analysis and
+reading the book, I conceived of leading change primarily as analysis and
 argument: understand the problem, propose a solution, and make a compelling case
 for the solution. Of course there is collaboration involved, but if we
-collaborate we'll collaborate on understing the problme, on proposing the
+collaborate we'll collaborate on understanding the problem, on proposing the
 solution, and on expressing the reasons for our solution.
 
 In Switch, they show that effective change needs to address three areas:

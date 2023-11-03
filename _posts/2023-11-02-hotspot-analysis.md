@@ -94,7 +94,7 @@ cat files-by-size.txt | sort -n | tail -n 100 | awk '{ print $2 }' > top-100-big
 
 Note: these commands don't bother filtering out files that no longer exist, so
 there are some warnings while executing the command. You could get fancy and
-filter those out before counting the lines, but the noise doesn't interfe with
+filter those out before counting the lines, but the noise doesn't interfere with
 the results.
 
 After running those commands, `top-100-biggest-files.txt` has a list of 100 file
@@ -123,7 +123,7 @@ At this point, you could go and look at the files on that list. But, if you have
 patience for one more step, you can get a nice table showing filename, commit
 frequency, and size. Then you can sort, filter, and analyze.
 
-In the appendix, tere's an idea of how to combine the two sets of file
+In the appendix, there's an idea of how to combine the two sets of file
 statistics in Excel. The short version: set up two sheets, one which maps file
 names to commit count, and another that maps file name to file size. Then, in a
 third sheet, show commit count and file size for each file so you can sort and

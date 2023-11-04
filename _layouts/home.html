@@ -43,13 +43,19 @@ layout: default
 
       <div class="post-pagination">
         {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
+          <a href="{{ '/page/' | append: paginator.total_pages | prepend: site.baseurl }}" class="pagination-next btn">|&nbsp;Oldest</a>
+          {% if paginator.next_page != paginator.total_pages %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
+          {% endif %}
         {% else %}
           <span>&nbsp;</span>
         {% endif %}
         <span class="pagination-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
         {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Newer&nbsp;&rang;</a>
+          {% if paginator.previous_page != 1 %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Newer&nbsp;&rang;</a>
+          {% endif %}
+          <a href="{{ '/' | prepend: site.baseurl }}" class="pagination-previous btn">Newest&nbsp;|</a>
         {% else %}
           <span>&nbsp;</span>
         {% endif %}

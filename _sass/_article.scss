@@ -119,4 +119,9 @@ iframe {
   margin-bottom: 2em;
   margin-left: 50%;
   transform: translateX(-50%);
+
+  &[src*="www.youtube.com"] {
+    width: 560px;
+    height: 315px;
+  }
 }

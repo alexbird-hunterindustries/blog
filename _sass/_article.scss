@@ -125,3 +125,16 @@ iframe {
     height: 315px;
   }
 }
+
+.post-content-banner {
+  background-color: rgba($color-hunter-fx-orange, 0.1);
+  color: $color-hunter-gray-7;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
+  max-width: unset;
+
+  & svg {
+    margin-right: 0.5em;
+  }
+}

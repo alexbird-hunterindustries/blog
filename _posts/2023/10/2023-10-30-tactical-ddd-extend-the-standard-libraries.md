@@ -61,8 +61,9 @@ standard library?
 When it comes to our business, we have all kinds of specific, nuanced words that
 aren't defined in standard libraries. Let's use an example: suppose our business
 sells clothing, and throughout our app we find ourselves converting between
-waist sizes and the size names that we use in our company. We have the following
-code in our app:
+waist sizes and the size names that we use in our company. For the sake of
+brevity, our store only sells a few waist sizes, and doesn't carry any sizes
+below 28 and above 42. We have the following code in our app:
 
 #### Validation
 ```javascript

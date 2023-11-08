@@ -32,6 +32,12 @@ layout: default
     </div>
   {% endif %}
 
+  {% if page.hidden %}
+    <div class='post-content-banner'>
+      This is a draft post not listed on the main page.
+    </div>
+  {% endif %}
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>

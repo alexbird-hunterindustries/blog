@@ -1,6 +1,6 @@
 ---
   title: "&ldquo;Jump onto the desk, Harry&rdquo;"
-  subtitle: Distributed Monoliths, The Imperius Curse, and Harry Potter
+  subtitle: Distributed Monoliths, Harry Potter, and Half-Doing New Ideas
   author: Alex Bird
   layout: post
 ---

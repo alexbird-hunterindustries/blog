@@ -42,7 +42,7 @@ what happens after Professor Moody casts the curse on Harry in class:
 
 ### Half-doing new ideas
 
-In software development, we sometimes we respond to new ideas just like Harry
+In software development, we sometimes respond to new ideas just like Harry
 did with the suggestion "jump onto the desk" -- we end up trying the new thing,
 but also resisting it, and the results are underwhelming. Ron Jeffries, one of
 the signatories of the [Agile Manifesto](https://agilemanifesto.org/), writes

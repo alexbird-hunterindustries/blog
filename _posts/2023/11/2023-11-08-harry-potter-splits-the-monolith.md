@@ -71,7 +71,7 @@ I remember him telling me something like this:
 To his great surprise, he found collaborative programming satisfying and
 effective, and he and his teammates adopted it as their regular development
 practice. When I joined their team, that was my first time in a group that did
-ensemble programming full-time.
+ensemble programming full-time. That was a great experience!
 
 #### Why do we half-try an idea?
 
@@ -90,14 +90,16 @@ this: folks diligently separate their monolith into many microservices which can
 be compiled, unit-tested, and deployed independently -- but leave in place some
 other type of coupling that prevents independent development. The result is that
 all the code must still be deployed as a unit. For example, multiple services share
-a database, so any schema changes impact all of the services. Splitting the code
-and compute infrastructure was 80% of the monolith-split work, but while they
-share the database the services cannot be changed independently. When it was a
-monolith, a change to one part of the system that was incompatible with another
-part of the system resulted in a compiler error or unit test failure.  Now that
-the monolith has been split, one part of the system can be compiled and
-unit-tested in isolation, and it's not until we deploy the microservices together
-that we see the problem.
+a database, so any schema changes impact all of the services. They successfully
+completed a big part of the monolith-split work -- splitting the code and
+compute infrastructure -- but since they share the database the services cannot
+be changed independently. Not only are they missing out on the benefits, they
+have also introduced a new problem. When it was a monolith, a change to one part of the
+system that was incompatible with another part of the system resulted in a
+compiler error or unit test failure. Now, one part of the system can be compiled
+and unit-tested in isolation, even if it breaks another part of the system. In
+this setup, it's not until we deploy the microservices together that we see the
+problem.
 
 Here are some symptoms of a distributed monolith:
  - When we want to run our service locally we must also run one or more other
@@ -118,7 +120,7 @@ still require coordination, we're left manually coordinating something that used
 to be tool-supported.
 
 **The problem with a distributed monolith is that we have the complexity of a
-distributed system with the challenges of a monolith."**
+distributed system with the challenges of a monolith.**
 
 #### "Jump on the desk" -- how to recognize a full commitment to microservices
 

@@ -7,8 +7,8 @@
 
 I came across a fascinating video by [Stephen Travers](https://www.stephentraversart.com)
 about how to handle overwhelming detail in visual art (sketches and drawings)
-and I thought there might be something to learn there about how we write
-software.
+and I thought there might be something to learn there about how we create
+abstractions in our software.
 
 Like an artist, a software developer is tasked with expressing the nuance and
 complexities of the real world in a way that a computer (and other humans) can

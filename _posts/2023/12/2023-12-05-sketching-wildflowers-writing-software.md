@@ -5,7 +5,7 @@
   layout: post
 ---
 
-I came across a facinating video by [Stephen Travers](https://www.stephentraversart.com)
+I came across a fascinating video by [Stephen Travers](https://www.stephentraversart.com)
 about how to handle overwhelming detail in visual art (sketches and drawings)
 and I thought there might be something to learn there about how we write
 software.
@@ -59,7 +59,7 @@ further back in the drawing as flowers.
 In software, we do something similar with unit tests. We're writing complicated
 code that has a lot of moving parts. We can make the complicated code more clear
 by providing a few clear examples that are isolated from the rest of the
-complexity. We use test doubles like mocks and spys like Stephen Travers uses
+complexity. We use test doubles like mocks and spies like Stephen Travers uses
 shadow and silhouette: it adds definition to our subject.
 
 Whether we are the authors of the code, or newcomers reading it for the first
@@ -130,7 +130,7 @@ class PartOfScene {
 This model is an abstraction of the scene. There is more detail in the image
 (and in the real tangle of flowers). Stephen explains that as an artist, to
 convey all the detail throughout would be overwhelming. In my view, this
-summarization is part of the purpose of the art: I'm interested in seeing how
+act of summarizing is part of the purpose of the art: I'm interested in seeing how
 Stephen summarizes a tangle of wildflowers. What does Stephen think is important
 about them?
 
@@ -170,11 +170,11 @@ the neighbors.
 
 ![17:02 into the Stephen Travers video](/blog/assets/images/posts/2023/12/drawing-overwhelming-detail-3.jpg)
 
-Stephen works through several examples where he indentifies what is the aspect
+Stephen works through several examples where he identifies what is the aspect
 of the architecture that is important as someone looking at it. This is not a
 process of scientific analysis; Stephen has insight about what about the thing
 makes it interesting to look at. He talks about patterns repeating, shadows
-between supports, the effect of perspective on decorations, symetry, shape, etc.
+between supports, the effect of perspective on decorations, symmetry, shape, etc.
 
 This is the part that takes insight and artistry: how do you look at a thing and
 say "if a stranger were here, I bet they would be moved by this aspect of it".

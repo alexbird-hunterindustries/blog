@@ -45,6 +45,46 @@ from the YouTube video linked above.
 
 If you find this post interesting, consider liking Stephen's video on YouTube.
 
+### TL;DR
+
+1. Study concrete examples to understand the subject
+  - in art: sketch a detailed view of different aspects of the subject in
+    isolation from the rest of the scene (use light or space to separate the
+    subject)
+  - in software: unit test specific usage scenarios in isolation from the rest
+    of the application (use test doubles and inversion of control to separate
+    the subject)
+2. Identify essential details of the subject
+  - in art: assess what visual characteristics are distinctive -- those will be
+    repeated in the background
+  - in software: refactor the working code to hide everything except the
+    important characteristics. We'll use this simplified interface throughout
+    the application when we refer to this component.
+3. Document the subject as a frame of reference
+  - in art: the detailed drawings in the foreground serve as an explanation for
+    that the simplified detail in the background represent. We interpret the
+    simplification in light of the detailed foreground examples.
+  - in software: the unit tests show how the abstract interface relates to
+    behaviour. People reading the code can understand the subject by reading the
+    tests.
+4. Use the abstraction
+  - in art: repeat the essential details to create the effect of the full thing
+    without recreating the full thing
+  - in software: integrate the component with the application by referring to
+    the interface. The rest of the application sees only the essential detail
+    that is exposed through the interface; the rest is hidden.
+
+In both art and software, if we attempt to recreate the full detail of a thing
+every time we refer to the thing, we will become overwhelmed. The world is too
+complex. Instead, we study the thing, identify essential characteristics, and
+refer to those characteristics as a proxy for the real thing. In communicating
+with others, we share a few illustrative examples of the real thing and our
+pattern-matching brains substitute that detailed example in place of the
+simplified proxy. This lets us recreate complex real-world situations without
+being overwhelmed by recreating the full complexity of the real world.
+
+The following sections say the same thing in more detail and with examples.
+
 ### On unit tests
 
 > We need to make it really easy for people looking at a fairly complex scene to

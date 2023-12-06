@@ -40,7 +40,7 @@ steps Stephen follows are similar to how we might approach a software
 abstraction. This post summarizes the method Stephen teaches, but from the view
 of a software crafter.
 
-Throughout this post, all unattributed quotes are from Stephen Travers taken
+Throughout this post, all quotes and images are from Stephen Travers taken
 from the YouTube video linked above.
 
 If you find this post interesting, consider liking Stephen's video on YouTube.

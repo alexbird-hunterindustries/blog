@@ -43,6 +43,8 @@ of a software crafter.
 Throughout this post, all unattributed quotes are from Stephen Travers taken
 from the YouTube video linked above.
 
+If you find this post interesting, consider liking Stephen's video on YouTube.
+
 ### On unit tests
 
 > We need to make it really easy for people looking at a fairly complex scene to

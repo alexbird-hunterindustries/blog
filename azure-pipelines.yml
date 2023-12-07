@@ -1,19 +1,25 @@
 trigger:
-  - main
+  branches:
+    include:
+      - main
 
-pool:
-  vmImage: 'ubuntu-latest'
+stages:
+  - stage: deployToS3
+    jobs:
+    - job: DeployToS3
+      pool:
+        vmImage: 'ubuntu-latest'
+      steps:
+        - checkout: self
+        - task: UseRubyVersion@0
+          inputs:
+            versionSpec: '>= 2.5'
 
-steps:
-  - task: UseRubyVersion@0
-    inputs:
-      versionSpec: '>= 2.5'
-
-  - displayName: 'bundle install'
-    script: |
-      gem install bundler
-      bundle install --retry=3 --jobs=4
-   
-  - displayName: 'jekyll build'
-    script: |
-      bundle exec jekyll build
+        - displayName: 'bundle install'
+          script: |
+            gem install bundler
+            bundle install --retry=3 --jobs=4
+         
+        - displayName: 'jekyll build'
+          script: |
+            bundle exec jekyll build

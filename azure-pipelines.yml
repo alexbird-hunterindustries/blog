@@ -14,12 +14,13 @@ stages:
         - task: UseRubyVersion@0
           inputs:
             versionSpec: '>= 2.5'
-
-        - displayName: 'bundle install'
-          script: |
+        - script: |
             gem install bundler
             bundle install --retry=3 --jobs=4
+
+          displayName: 'bundle install'
          
-        - displayName: 'jekyll build'
-          script: |
+        - script: |
             bundle exec jekyll build
+          
+          displayName: 'jekyll build'

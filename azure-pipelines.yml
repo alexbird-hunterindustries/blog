@@ -5,6 +5,8 @@ trigger:
 
 stages:
   - stage: deployToS3
+    variables:
+      - group: aws-s3-deployment-credentials-for-hunter-software-blog
     jobs:
     - job: DeployToS3
       pool:
@@ -24,3 +26,13 @@ stages:
             bundle exec jekyll build
           
           displayName: 'jekyll build'
+
+        - script: |
+            ls
+            ls _site
+            echo somehow upload to $(BUCKET_NAME) in $(AWS_REGION)
+          displayName: Upload to S3
+          env:
+            AWS_ACCESS_KEY_ID: $(AWS_ACCESS_KEY_ID)
+            AWS_SECRET_ACCESS_KEY: $(AWS_SECRET_ACCESS_KEY)
+            AWS_DEFAULT_REGION: $(AWS_REGION)

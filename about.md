@@ -17,5 +17,7 @@ blog is a partial log of those evolving ideas. We're writing primarily for our
 own benefit -- to synthesize our learning and share ideas with one another --
 but publish some of our notes in case they help others.
 
+Why "the cannery"? See [Make jam from what you
+learn](/blog/2023/10/27/make-jam.html).
 
 Interested in working with us? See our [open positions](https://recruiting2.ultipro.com/HUN1007HUIND/JobBoard/9d4c9b3a-f0e0-45f2-8b3c-5fb03c6eb7f5/?q=Mob&o=relevance&w=&wc=&we=&wpst=&f5=GalK65savEK7Er4k_Nb7dw).

@@ -7,14 +7,24 @@
 
 ## Context
 
-We wanted to make many small changes which left our code in a broken state. After each little change we committed, but
-we don't want to push those commits as-is because not all tests were passing. After a dozen or so changes, the code was
-good again. We want one commit that has all our changes -- this is a good commit where the tests pass.
+We were rewriting ~30 lines of code, supported by tests. To do so, we disabled
+all our tests and deleted the 30 lines of code (leaving only an empty method).
+One test at a time, we enabled the test and wrote the code to pass the test.
+Then, we committed to git.
 
-In the case that you want to consolidate many commits into one, you can follow these steps.
+Since the code was technically broken at each commit (the disabled tests
+represented missing behavior), we did not want to push our changes as-is.
+
+When the rewrite was finished (and all tests were enabled and passing), we were
+ready to think about pushing our code. Instead of pushing broken commits, we
+chose to squash the commits into one single commit, review it as a single
+commit, and then commit and push following our regular process.
+
+This post describes the squash, in case we (or you) want to repeat it.
 
 Here's out git log before we started the squash:
 ```
+
 *       a63f9092b 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
 *       110b88094 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
 *       821f1594b 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
@@ -50,11 +60,13 @@ Here's out git log before we started the squash:
 
 Interactive rebase back to the last clean commit: 
 ```
+
 git rebase -i 1a1ab91a3
 ```
 
 This opens up a new editor window:
 ```
+
 pick 12ddbb2c4 WIP - To Be Squashed
 pick 512201560 WIP - To Be Squashed
 pick 9f42f6ac5 WIP - To Be Squashed
@@ -122,6 +134,7 @@ Next change the lines from "pick" to "squash" except for the first line - that o
 to be a commit to squash to.
 
 ```
+
 pick 12ddbb2c4 WIP - To Be Squashed
 squash 512201560 WIP - To Be Squashed
 squash 9f42f6ac5 WIP - To Be Squashed
@@ -134,6 +147,7 @@ something temporary (we will update the commit shortly).
 
 Then, our git log looks like this:
 ```
+
 *       b77d16d66 👥 ACC2 Features [25 hours ago] (HEAD -> master) something temporary
 | *     f62d58425 👥 ACC2 Features [3 hours ago] (placeholder) WIP - To Be Squashed
 | *     a63f9092b 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
@@ -174,6 +188,7 @@ Then, our git log looks like this:
 Finally, we reset that commit so we could review the diff of all the squash and commit using our normal commit process.
 
 ```
+
 git reset --soft HEAD^
 ```
 

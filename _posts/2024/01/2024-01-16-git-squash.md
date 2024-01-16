@@ -145,7 +145,11 @@ squash 5335a7271 WIP - To Be Squashed
 Then we save the file and git performs the rebase. (It shows `Rebasing (8/29)`.) Afterward, we're prompted to enter a new commit message, and we put
 something temporary (we will update the commit shortly).
 
-Then, our git log looks like this:
+Then, our git log looks like this. Notice that master has a single commit on top
+of the last clean commit. We left a "placeholder" branch at the end of our "wip"
+commits so we could see the before and after. When we diffed `master` and
+`placeholder`, they were identical, which told us the squash was successful: all
+the same changes, but in a single commit instead of many.
 ```
 
 *       b77d16d66 👥 ACC2 Features [25 hours ago] (HEAD -> master) something temporary

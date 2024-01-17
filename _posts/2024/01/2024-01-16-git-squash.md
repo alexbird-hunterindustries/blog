@@ -8,9 +8,9 @@
 ## Context
 
 We were rewriting ~30 lines of code, supported by tests. To do so, we disabled
-all our tests and deleted the 30 lines of code (leaving only an empty method).
-One test at a time, we enabled the test and wrote the code to pass the test.
-Then, we committed to git.
+the tests for that code and deleted the 30 lines of code (leaving an empty
+method and a handful of disabled tests).  One test at a time, we enabled the
+test and wrote the code to pass the test.  Then, we committed to git.
 
 Since the code was technically broken at each commit (the disabled tests
 represented missing behavior), we did not want to push our changes as-is.

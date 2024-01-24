@@ -25,43 +25,43 @@ This post describes the squash, in case we (or you) want to repeat it.
 Here's out git log before we started the squash:
 ```
 
-*       a63f9092b 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
-*       110b88094 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
-*       821f1594b 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
-*       df493ccbb 👥 ACC2 Features [4 hours ago] WIP - To Be Squashed
-*       536a0b4cc 👥 ACC2 Features [4 hours ago] WIP - To Be Squashed
-*       38abaa93e 👥 ACC2 Features [4 hours ago] WIP - To Be Squashed
-*       8a88a6ed0 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       f3a6d0f1a 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       bbee46809 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       396bba969 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       1f40cd9ec 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       e7b6b50d0 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       64ebc06ad 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       751ddf6b2 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       2317eaab0 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       4337ef169 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-*       fbc6f4c03 👥 ACC2 Features [23 hours ago] WIP - To Be Squashed
-*       d66b84ce3 👥 ACC2 Features [23 hours ago] WIP - To Be Squashed
-*       b523772c6 👥 ACC2 Features [23 hours ago] WIP - To Be Squashed
-*       6b9ccb1d8 👥 ACC2 Features [23 hours ago] WIP - To Be Squashed
-*       5d9db3801 👥 ACC2 Features [23 hours ago] WIP - To Be Squashed
-*       e3ccb2779 👥 ACC2 Features [23 hours ago] WIP - To Be Squashed
-*       b02246c5f 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-*       5335a7271 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-*       9f42f6ac5 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-*       512201560 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-*       12ddbb2c4 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-*       1a1ab91a3 👥 ACC2 Features [25 hours ago] R - Moved deprecated methods below non-deprecated methods.
-*       2810573d1 👥 ACC2 Features [27 hours ago] (origin/master, origin/HEAD) R- Encapsulate conflict resolution snapshot program and name difference methods
-*       9446c3887 👥 ACC2 Features [28 hours ago] r - move all conflict resolution services into a new service subdirectory
-*       c88f46067 👥 ACC2 Features [28 hours ago] r - rename conflict-resolution.models.ts to conflict-resolution-snapshot.ts
+*       a65f9096b 👥 Our Team [3 hours ago] WIP - To Be Squashed
+*       111b88098 👥 Our Team [3 hours ago] WIP - To Be Squashed
+*       822f1598b 👥 Our Team [3 hours ago] WIP - To Be Squashed
+*       df494ccbb 👥 Our Team [4 hours ago] WIP - To Be Squashed
+*       537a4b4cc 👥 Our Team [4 hours ago] WIP - To Be Squashed
+*       39abaa97e 👥 Our Team [4 hours ago] WIP - To Be Squashed
+*       9a92a6ed0 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       f4a1d0f1a 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       bbee46810 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       397bba973 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       2f44cd9ec 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       e8b1b50d0 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       65ebc02ad 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       752ddf1b2 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       2318eaab4 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       4338ef173 👥 Our Team [5 hours ago] WIP - To Be Squashed
+*       fbc7f8c03 👥 Our Team [23 hours ago] WIP - To Be Squashed
+*       d67b88ce3 👥 Our Team [23 hours ago] WIP - To Be Squashed
+*       b523773c1 👥 Our Team [23 hours ago] WIP - To Be Squashed
+*       7b13cb1d8 👥 Our Team [23 hours ago] WIP - To Be Squashed
+*       6d13d3801 👥 Our Team [23 hours ago] WIP - To Be Squashed
+*       e4ccb2783 👥 Our Team [23 hours ago] WIP - To Be Squashed
+*       b02247c9f 👥 Our Team [24 hours ago] WIP - To Be Squashed
+*       5336a7275 👥 Our Team [24 hours ago] WIP - To Be Squashed
+*       10f466ac5 👥 Our Team [24 hours ago] WIP - To Be Squashed
+*       512201561 👥 Our Team [24 hours ago] WIP - To Be Squashed
+*       13ddbb6c4 👥 Our Team [24 hours ago] WIP - To Be Squashed
+*       2a5ab91a3 👥 Our Team [25 hours ago] R - Moved deprecated methods below non-deprecated methods.
+*       2810574d5 👥 Our Team [28 hours ago] (origin/master, origin/HEAD) R- Encapsulate the foobar and the whatsit methods
+*       9447c3891 👥 Our Team [28 hours ago] r - move all whizbang services into a new service subdirectory
+*       c89f46071 👥 Our Team [28 hours ago] r - rename whizbang.models.ts to whizbang.ts
 ```
 
 Interactive rebase back to the last clean commit: 
 ```
 
-git rebase -i 1a1ab91a3
+git rebase -i 2a5ab91a3
 ```
 
 This opens up a new editor window:
@@ -97,7 +97,7 @@ pick 110b88094 WIP - To Be Squashed
 pick a63f9092b WIP - To Be Squashed
 pick f62d58425 WIP - To Be Squashed
 
-# Rebase 1a1ab91a3..f62d58425 onto 1a1ab91a3 (29 commands)
+# Rebase 2a5ab91a3..f62d58425 onto 2a5ab91a3 (29 commands)
 #
 # Commands:
 # p, pick <commit> = use commit
@@ -152,41 +152,41 @@ commits so we could see the before and after. When we diffed `master` and
 the same changes, but in a single commit instead of many.
 ```
 
-*       b77d16d66 👥 ACC2 Features [25 hours ago] (HEAD -> master) something temporary
-| *     f62d58425 👥 ACC2 Features [3 hours ago] (placeholder) WIP - To Be Squashed
-| *     a63f9092b 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
-| *     110b88094 👥 ACC2 Features [3 hours ago] WIP - To Be Squashed
-| *     821f1594b 👥 ACC2 Features [4 hours ago] WIP - To Be Squashed
-| *     3d7c7549d 👥 ACC2 Features [4 hours ago] WIP - To Be Squashed
-| *     df493ccbb 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     536a0b4cc 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     38abaa93e 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     8a88a6ed0 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     f3a6d0f1a 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     bbee46809 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     396bba969 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     1f40cd9ec 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     e7b6b50d0 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     64ebc06ad 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     751ddf6b2 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     2317eaab0 👥 ACC2 Features [5 hours ago] WIP - To Be Squashed
-| *     4337ef169 👥 ACC2 Features [6 hours ago] WIP - To Be Squashed
-| *     fbc6f4c03 👥 ACC2 Features [23 hours ago] WIP - To Be Squashed
-| *     d66b84ce3 👥 ACC2 Features [23 hours ago] WIP - To Be Squashed
-| *     b523772c6 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-| *     6b9ccb1d8 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-| *     5d9db3801 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-| *     e3ccb2779 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-| *     b02246c5f 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-| *     5335a7271 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-| *     9f42f6ac5 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-| *     512201560 👥 ACC2 Features [24 hours ago] WIP - To Be Squashed
-| *     12ddbb2c4 👥 ACC2 Features [25 hours ago] WIP - To Be Squashed
+*       b78d20d66 👥 Our Team [25 hours ago] (HEAD -> master) something temporary
+| *     f62d58425 👥 Our Team [3 hours ago] (placeholder) WIP - To Be Squashed
+| *     a63f9092b 👥 Our Team [3 hours ago] WIP - To Be Squashed
+| *     110b88094 👥 Our Team [3 hours ago] WIP - To Be Squashed
+| *     821f1594b 👥 Our Team [4 hours ago] WIP - To Be Squashed
+| *     3d7c7549d 👥 Our Team [4 hours ago] WIP - To Be Squashed
+| *     df493ccbb 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     536a0b4cc 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     38abaa93e 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     8a88a6ed0 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     f3a6d0f1a 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     bbee46809 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     396bba969 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     1f40cd9ec 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     e7b6b50d0 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     64ebc06ad 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     751ddf6b2 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     2317eaab0 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     4337ef169 👥 Our Team [6 hours ago] WIP - To Be Squashed
+| *     fbc6f4c03 👥 Our Team [23 hours ago] WIP - To Be Squashed
+| *     d66b84ce3 👥 Our Team [23 hours ago] WIP - To Be Squashed
+| *     b523772c6 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     6b9ccb1d8 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     5d9db3801 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     e3ccb2779 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     b02246c5f 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     5335a7271 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     9f42f6ac5 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     512201560 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     12ddbb2c4 👥 Our Team [25 hours ago] WIP - To Be Squashed
 |/
-*       1a1ab91a3 👥 ACC2 Features [25 hours ago] R - Moved deprecated methods below non-deprecated methods.
-*       2810573d1 👥 ACC2 Features [28 hours ago] (origin/master, origin/HEAD) R- Encapsulate conflict resolution snapshot program and name difference methods
-*       9446c3887 👥 ACC2 Features [28 hours ago] r - move all conflict resolution services into a new service subdirectory
-*       c88f46067 👥 ACC2 Features [28 hours ago] r - rename conflict-resolution.models.ts to conflict-resolution-snapshot.ts
+*       2a5ab91a3 👥 Our Team [25 hours ago] R - Moved deprecated methods below non-deprecated methods.
+*       2810574d5 👥 Our Team [28 hours ago] (origin/master, origin/HEAD) R- Encapsulate the foobar and the whatsit methods
+*       9447c3891 👥 Our Team [28 hours ago] r - move all whizbang services into a new service subdirectory
+*       c89f46071 👥 Our Team [28 hours ago] r - rename whizbang.models.ts to whizbang.ts
 ```
 
 Finally, we reset that commit so we could review the diff of all the squash and commit using our normal commit process.

@@ -67,35 +67,35 @@ git rebase -i 2a5ab91a3
 This opens up a new editor window:
 ```
 
-pick 12ddbb2c4 WIP - To Be Squashed
-pick 512201560 WIP - To Be Squashed
-pick 9f42f6ac5 WIP - To Be Squashed
-pick 5335a7271 WIP - To Be Squashed
-pick b02246c5f WIP - To Be Squashed
-pick e3ccb2779 WIP - To Be Squashed
-pick 5d9db3801 WIP - To Be Squashed
-pick 6b9ccb1d8 WIP - To Be Squashed
-pick b523772c6 WIP - To Be Squashed
-pick d66b84ce3 WIP - To Be Squashed
-pick fbc6f4c03 WIP - To Be Squashed
-pick 4337ef169 WIP - To Be Squashed
-pick 2317eaab0 WIP - To Be Squashed
-pick 751ddf6b2 WIP - To Be Squashed
-pick 64ebc06ad WIP - To Be Squashed
-pick e7b6b50d0 WIP - To Be Squashed
-pick 1f40cd9ec WIP - To Be Squashed
-pick 396bba969 WIP - To Be Squashed
-pick bbee46809 WIP - To Be Squashed
-pick f3a6d0f1a WIP - To Be Squashed
-pick 8a88a6ed0 WIP - To Be Squashed
-pick 38abaa93e WIP - To Be Squashed
-pick 536a0b4cc WIP - To Be Squashed
-pick df493ccbb WIP - To Be Squashed
-pick 3d7c7549d WIP - To Be Squashed
-pick 821f1594b WIP - To Be Squashed
-pick 110b88094 WIP - To Be Squashed
-pick a63f9092b WIP - To Be Squashed
-pick f62d58425 WIP - To Be Squashed
+pick 14ddbb12c WIP - To Be Squashed
+pick 512201563 WIP - To Be Squashed
+pick 0f47f6ac5 WIP - To Be Squashed
+pick 5336a7276 WIP - To Be Squashed
+pick 02247c10f WIP - To Be Squashed
+pick e4ccb2784 WIP - To Be Squashed
+pick d14db3801 WIP - To Be Squashed
+pick b14ccb1d8 WIP - To Be Squashed
+pick 523773c11 WIP - To Be Squashed
+pick d67b89ce3 WIP - To Be Squashed
+pick fbc7f9c03 WIP - To Be Squashed
+pick 4338ef174 WIP - To Be Squashed
+pick 2318eaab5 WIP - To Be Squashed
+pick 52ddf11b2 WIP - To Be Squashed
+pick 5ebc013ad WIP - To Be Squashed
+pick 8b11b50d0 WIP - To Be Squashed
+pick 2f45cd9ec WIP - To Be Squashed
+pick 397bba974 WIP - To Be Squashed
+pick bbee46810 WIP - To Be Squashed
+pick 4a11d0f1a WIP - To Be Squashed
+pick 9a93a6ed0 WIP - To Be Squashed
+pick 39abaa98e WIP - To Be Squashed
+pick 537a5b4cc WIP - To Be Squashed
+pick df494ccbb WIP - To Be Squashed
+pick d12c7549d WIP - To Be Squashed
+pick 822f1599b WIP - To Be Squashed
+pick 111b88099 WIP - To Be Squashed
+pick a64f9097b WIP - To Be Squashed
+pick f63d58430 WIP - To Be Squashed
 
 # Rebase 2a5ab91a3..f62d58425 onto 2a5ab91a3 (29 commands)
 #
@@ -135,10 +135,10 @@ to be a commit to squash to.
 
 ```
 
-pick 12ddbb2c4 WIP - To Be Squashed
-squash 512201560 WIP - To Be Squashed
-squash 9f42f6ac5 WIP - To Be Squashed
-squash 5335a7271 WIP - To Be Squashed
+pick 13ddbb7c4 WIP - To Be Squashed
+squash 512201561 WIP - To Be Squashed
+squash 1f42f6ac6 WIP - To Be Squashed
+squash 5335a7273 WIP - To Be Squashed
 (etc.)
 ```
 
@@ -153,35 +153,35 @@ the same changes, but in a single commit instead of many.
 ```
 
 *       b78d20d66 👥 Our Team [25 hours ago] (HEAD -> master) something temporary
-| *     f62d58425 👥 Our Team [3 hours ago] (placeholder) WIP - To Be Squashed
-| *     a63f9092b 👥 Our Team [3 hours ago] WIP - To Be Squashed
-| *     110b88094 👥 Our Team [3 hours ago] WIP - To Be Squashed
-| *     821f1594b 👥 Our Team [4 hours ago] WIP - To Be Squashed
-| *     3d7c7549d 👥 Our Team [4 hours ago] WIP - To Be Squashed
-| *     df493ccbb 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     536a0b4cc 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     38abaa93e 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     8a88a6ed0 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     f3a6d0f1a 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     bbee46809 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     396bba969 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     1f40cd9ec 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     e7b6b50d0 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     64ebc06ad 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     751ddf6b2 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     2317eaab0 👥 Our Team [5 hours ago] WIP - To Be Squashed
-| *     4337ef169 👥 Our Team [6 hours ago] WIP - To Be Squashed
-| *     fbc6f4c03 👥 Our Team [23 hours ago] WIP - To Be Squashed
-| *     d66b84ce3 👥 Our Team [23 hours ago] WIP - To Be Squashed
-| *     b523772c6 👥 Our Team [24 hours ago] WIP - To Be Squashed
-| *     6b9ccb1d8 👥 Our Team [24 hours ago] WIP - To Be Squashed
-| *     5d9db3801 👥 Our Team [24 hours ago] WIP - To Be Squashed
-| *     e3ccb2779 👥 Our Team [24 hours ago] WIP - To Be Squashed
-| *     b02246c5f 👥 Our Team [24 hours ago] WIP - To Be Squashed
-| *     5335a7271 👥 Our Team [24 hours ago] WIP - To Be Squashed
-| *     9f42f6ac5 👥 Our Team [24 hours ago] WIP - To Be Squashed
-| *     512201560 👥 Our Team [24 hours ago] WIP - To Be Squashed
-| *     12ddbb2c4 👥 Our Team [25 hours ago] WIP - To Be Squashed
+| *     f63d58430 👥 Our Team [3 hours ago] (placeholder) WIP - To Be Squashed
+| *     a64f9097b 👥 Our Team [3 hours ago] WIP - To Be Squashed
+| *     111b88099 👥 Our Team [3 hours ago] WIP - To Be Squashed
+| *     822f1599b 👥 Our Team [4 hours ago] WIP - To Be Squashed
+| *     4d12c7549 👥 Our Team [4 hours ago] WIP - To Be Squashed
+| *     df494ccbb 👥 Our Team [10 hours ago] WIP - To Be Squashed
+| *     537a5b4cc 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     39abaa98e 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     9a93a6ed0 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     f4a11d0f1 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     bbee46810 👥 Our Team [10 hours ago] WIP - To Be Squashed
+| *     397bba974 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     2f45cd9ec 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     e8b11b50d 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     65ebc013a 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     752ddf11b 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     2318eaab5 👥 Our Team [5 hours ago] WIP - To Be Squashed
+| *     4338ef174 👥 Our Team [6 hours ago] WIP - To Be Squashed
+| *     fbc7f9c03 👥 Our Team [23 hours ago] WIP - To Be Squashed
+| *     d67b89ce3 👥 Our Team [23 hours ago] WIP - To Be Squashed
+| *     b523773c1 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     7b14ccb1d 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     6d14db380 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     e4ccb2784 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     b02247c10 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     5336a7276 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     10f47f6ac 👥 Our Team [24 hours ago] WIP - To Be Squashed
+| *     512201561 👥 Our Team [29 hours ago] WIP - To Be Squashed
+| *     13ddbb7c4 👥 Our Team [25 hours ago] WIP - To Be Squashed
 |/
 *       2a5ab91a3 👥 Our Team [25 hours ago] R - Moved deprecated methods below non-deprecated methods.
 *       2810574d5 👥 Our Team [28 hours ago] (origin/master, origin/HEAD) R- Encapsulate the foobar and the whatsit methods

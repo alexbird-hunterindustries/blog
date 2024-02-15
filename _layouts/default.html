@@ -1,57 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <head>
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}</title>
-    <meta name="title" content="{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}" />
-    <meta property="twitter:title" content="{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}" />
-    <meta property="og:title" content="{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}" />
-
-    {% if page.subtitle or site.description %}
-      <meta name="description" content="{{ page.subtitle | default: site.description }}">
-      <meta property="og:description" content="{{ page.subtitle | default: site.description }}" />
-      <meta property="twitter:description" content="{{ page.subtitle | default: site.description }}" />
-    {% endif %}  
-
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
-
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/{{ site.icon }}">
-    <link rel="icon" href="{{ site.baseurl }}/{{ site.favicon }}" type="image/vnd.microsoft.icon">
-
-    <meta property="og:url" content="{{page.url | absolute_url}}" />
-    <meta property="twitter:url" content="{{page.url | absolute_url}}" />
-
-    <meta property="og:image" content="{{ '/assets/images/meta-tag-banner.png' | absolute_url }}" />
-    <meta property="twitter:image" content="{{ '/assets/images/meta-tag-banner.png' | absolute_url }}" />
-
-    <meta property="og:type" content="website" />
-    <meta property="twitter:card" content="summary_large_image" />
-  </head>
+<html>
   <body>
-
-    {{ content }}
-
-    <footer>
-      {% unless site.hide_search %}
-        <div class='footer__search'>
-          {% include search.html %}
-        </div>
-      {% endunless %}
-
-      {% include menu.html class="footer__menu" %}
-
-      <aside class="footer__credits">
-        <p>
-          <small>Site adapted from the <a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
-        </p>
-        <p>
-          <small>Copyright ©2023 Hunter Industries™. All Rights Reserved.</small>
-        </p>
-      </aside>
-    </footer>
+    <script>
+      window.location.href = "https://blog.software.hunterindustries.com"
+    </script>
+    <p>Moved to <a href="https://blog.software.hunterindustries.com">blog.software.hunterindustries.com</a></p>
   </body>
 </html>
